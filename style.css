@@ -1,0 +1,780 @@
+body {
+    background-color: #F1F0F6;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.sidemenu {
+background-color: white;
+border-right: 1px solid #E94B3C;
+border-top: 1px solid #E94B3C;
+border-bottom: 1px solid #E94B3C;
+top: 0;
+bottom:0;
+position:fixed;
+overflow-y:scroll;
+overflow-x: hidden;
+border-radius: 0px 25px 25px 0px;
+width: 344px;
+height: 100%;
+left: -8px;
+}
+
+.profile {
+left: 76.96px;
+top: 5px;
+display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; 
+}
+
+#profile {
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+}
+
+
+#act {
+    background-color: #7EB942;
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 212px;
+    top: 158px;
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+}
+
+.name p {
+position: absolute;
+width: 137.81px;
+height: 19px;
+left: 110px;
+top: 208px;
+
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+
+.bsit {
+position: absolute;
+width: 112.94px;
+height: 17px;
+left: 120px;
+top: 237px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+position: absolute;
+left: 130px;
+right: 89.55%;
+top: 280px;
+bottom: 70.31%;
+}
+
+#fb {
+width: auto;
+height: 30px;
+position: absolute;
+display: inline;
+}
+
+#insta {
+width: auto;
+height: 30px;
+position: absolute;
+display: inline;
+margin-left: 50px;
+}
+
+#hl {
+    position: absolute;
+    width: 267.33px;
+    height: 0px;
+    left: 40px;
+    top: 324px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#hl2 {
+    position: absolute;
+    width: 267.33px;
+    height: 0px;
+    left: 40px;
+    top: 460px;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.info {
+position: absolute;
+width: 258px;
+height: 89px;
+left: 38px;
+top: 347px;
+
+}
+
+.age {
+    background-color: #E94B3C;
+    box-sizing: border-box;
+    width: 40px;
+    padding-left: 5px;
+    color: white;
+}
+
+.email {
+    background-color: #E94B3C;
+    box-sizing: border-box;
+    width: 50px;
+    padding-left: 5px;
+    color: white;   
+}
+
+.address {
+    background-color: #E94B3C;
+    box-sizing: border-box;
+    width: 70px;
+    padding-left: 5px;
+    color: white;
+}
+
+#a19 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 250px;
+    top: 2px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#mail {
+    position: absolute;
+    width: 148px;
+    height: 12px;
+    left: 65px;
+    top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+#adrs {
+    position: absolute;
+    width: 500px;
+    height: 12px;
+    left: 80px;
+    top: 90px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 12px;
+    
+    color: #000000;
+}
+
+
+.language {
+    position: absolute;
+    width: 110.98px;
+    height: 22px;
+    left: 38px;
+    top: 479px;
+    
+    /* H4 - 18px */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    /* or 22px */
+    
+    text-transform: capitalize;
+    
+    /* Black */
+    
+    color: #2B2B2B;
+}
+
+.bisaya {
+    position: absolute;
+    display: inline;
+    width: 257px;
+    height: 24px;
+    left: 38px;
+    top: 514px;
+    color: #767676;
+}
+
+.tagalog {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 38px;
+    top: 558px;
+    color: #767676;
+}
+
+.english {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 38px;
+    top: 600px;
+    color: #767676;
+}
+
+.jap {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 39px;
+    top: 637px;
+    color: #767676;
+}
+
+.html {
+    position: absolute;
+    width: 257px;
+    height: 24px;
+    left: 39px;
+    top: 757px; 
+    color: #767676;
+}
+
+.css {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 39px;
+    top: 799px;
+    color: #767676;
+}
+
+.js {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 39px;
+    top: 841px;
+    color: #767676;
+}
+
+.figma {
+    position: absolute;
+    width: 255.83px;
+    height: 24px;
+    left: 40px;
+    top: 878px;
+    color: #767676;
+}
+
+.extra {
+/* Extra Skill */
+
+
+position: absolute;
+width: 110.98px;
+height: 21.77px;
+left: 38px;
+top: 938px;
+
+/* H4 - 18px */
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+/* or 22px */
+
+text-transform: capitalize;
+
+/* Black */
+
+color: #2B2B2B;
+}
+
+.extraa {
+    position: absolute;
+    width: 257px;
+    height: 23.75px;
+    left: 38px;
+    top: 974.61px;
+    color: #767676;
+}
+
+#line1 {  
+position: absolute;
+width: 257px;
+height: 4px;
+left: 38px;
+top: 545px;
+
+background: url(1px.png) repeat-y;
+border: 1px solid black;
+border-radius: 10px;
+background-size: 90%;
+}
+
+#line2 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 38px;
+    top: 587px;
+
+
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 70%;
+}
+
+#line3 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 38px;
+    top: 628px;
+
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 60%;
+}
+
+#line4 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 39px;
+    top: 665px;
+
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 5%;
+}
+
+#line5 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 39px;
+    top: 786px;
+
+    
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 90%;
+}
+
+#line6 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 39px;
+    top: 828px;
+    
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 50%;
+}
+
+#line7 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 39px;
+    top: 869px;
+
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 20%;
+}
+
+#line8 {
+    position: absolute;
+    width: 257px;
+    height: 4px;
+    left: 40px;
+    top: 906px;
+
+    
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 20%;
+}
+
+#line9 {
+    position: absolute;
+    width: 258px;
+    height: 3.96px;
+    left: 37px;
+    top: 1003.31px;
+
+    background: url(1px.png) repeat-y;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 40%;
+}
+
+#hl3{
+    position: absolute;
+    width: 267.33px;
+    height: 0px;
+    left: 40px;
+    top: 689px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#hl4 {
+    position: absolute;
+    width: 267.33px;
+    height: 0px;
+    left: 40px;
+    top: 929px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.skills {
+    position: absolute;
+    width: 110.98px;
+    height: 22px;
+    left: 39px;
+    top: 720px;
+    
+    /* H4 - 18px */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    /* or 22px */
+    
+    text-transform: capitalize;
+    
+    /* Black */
+    
+    color: #2B2B2B;
+}
+
+.header {
+    /* header menu */
+
+
+box-sizing: border-box;
+
+position: relative;
+width: 987px;
+height: 466px;
+left: 400px;
+top: -20px;
+
+background: #FFFFFF;
+border: 1px solid #E94B3C;
+box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+}
+
+.intro {
+    position: absolute;
+    width: 589px;
+    height: 208px;
+    left: 119px;
+    top: 59px;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+    bottom: 60px;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.p3  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+
+.p3 ul {
+    list-style-type: none;
+}
+
+.p3 li {
+    display: inline;
+    margin-right: 3px;
+}
+
+#image {
+    position: absolute;
+    width: 340px;
+    height: auto;
+    left: 520px;
+    top: 20px;
+}
+
+.lm {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    top: 294px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+    
+    
+    color: #FFFFFF;
+    background: #E94B3C;
+    border-radius: 15px;
+}
+
+
+.edu {
+    position: absolute;
+    width: 158px;
+    height: 39px;
+    left: 800px;
+    top: 484px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.h1 {
+    position: absolute;
+    width: 440px;
+    height: 38px;
+    left: 655px;
+    top: 537px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.edbg {
+    position: absolute;
+    width: 987px;
+    height: 408px;
+    left: 400px;
+    top: 614px;
+    
+    background: #FFFFFF;
+}
+
+.edbg ul {
+    list-style-type: none;
+}
+
+
+#one {
+    position: absolute;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    left: 37px;
+    top: 48px;
+
+    background-color: #E94B3C;
+    color: white;
+}
+
+.onetxt {
+    position: absolute;
+    width: 740px;
+    height: 38px;
+    left: 219px;
+    top: 48px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#two {
+    position: absolute;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    left: 37px;
+    top: 123px;
+    
+    background-color: #E94B3C;
+    color: white;
+}
+
+.twotxt {
+    position: absolute;
+    width: 665px;
+    height: 38px;
+    left: 219px;
+    top: 123px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#three {
+    position: absolute;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    left: 37px;
+    top: 185px;
+
+    background-color: #E94B3C;
+    color: white;
+}
+
+.threetxt {
+    position: absolute;
+    width: 733px;
+    height: 38px;
+    left: 219px;
+    top: 185px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#four {
+    position: absolute;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    left: 37px;
+    top: 257px;
+    
+    background-color: #E94B3C;
+    color: white;
+}
+
+.fourtxt {
+    position: absolute;
+    width: 733px;
+    height: 38px;
+    left: 219px;
+    top: 257px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#five {
+    position: absolute;
+    padding: 3px;
+    width: auto;
+    height: auto;
+    left: 37px;
+    top: 333px;
+    
+    background-color: #E94B3C;
+    color: white;
+}
+
+.fivetxt {
+    position: absolute;
+    width: 733px;
+    height: 38px;
+    left: 219px;
+    top: 333px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
